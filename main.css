@@ -56,13 +56,20 @@ header {
 .card:hover {
     border-color: rgb(49, 49, 255);
 }
+
+.card a {
+    text-decoration: none;
+}
+
 .card img {
-    width: 100px;
+    width: 100%;
     height: auto;
     aspect-ratio: 16/9;
 }
 .card h3 {
     text-align: center;
+    font: 24px;
+    color: black;
 
     padding: 24px;
 }
